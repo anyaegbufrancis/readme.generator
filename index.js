@@ -69,12 +69,12 @@ const questions = [
 ];
 
 //function to write README file
-function writeToFile(fileName, data) {
-    readmeCreate("README.md", data).then(function() {
-        console.log("Successfully wrote to README.md file");
-      })
+// function writeToFile(fileName, data) {
+//     readmeCreate("README.md", data).then(function() {
+//         console.log("Successfully wrote to README.md file");
+//       })
   
-}
+// }
 
 function delayWrite () {
     setTimeout(function() {
