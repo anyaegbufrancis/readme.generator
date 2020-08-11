@@ -1,25 +1,32 @@
 {
-  "name": "readme.md",
+  "name": "readme.md_generator",
   "version": "1.0.0",
-  "description": "README.MD initialization ",
+  "description": "Generating a descriptive README markdown using interactive interface created using Node inquirer module ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"    
   },
   "author": "Francis Anyaegbu",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.5.2"
   },
+  
   "repository": {
     "type": "git",
-    "url": "https://github.com/anyaegbufrancis/readme.generator"
+    "url": "https://github.com/anyaegbufrancis/readme.generator",
+    "bugs": {
+      "url": "https://github.com/anyaegbufrancis/README-Generator/issues"
+    }
   },
   "keywords": [
     "readme.md",
     "inquirer",
     "util",
     "fs",
-    "moment"
+    "moment",
+    "terminal",
+    "JavaScript",
+    "Node"
   ]
 }

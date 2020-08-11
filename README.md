@@ -1,7 +1,5 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-  # ${data.title}
+
+  # fksgk
   
   # Table of Contents
   
@@ -14,43 +12,39 @@ function generateMarkdown(data) {
   -[Github](#github)
   -[Email](#email)
   ## Description
-  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg)
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg)
   
-  ${data.description}
+  gfshf
   
   ## Installation
   
-  ${data.installation}
+  sgdfhd
   
   ## Usage
   
-  ${data.usage}
+  sghg
   
   ## License
   
   FOr additional licensing information. please click below:
   
-  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg)
-  ${data.license}
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+  MIT
   
   ## Contributors
   
-  ${data.contributors}
+  undefined
   
   ## Tests
   
-  ${data.tests}
+  sgd
   
   ## Questions
   
   For questions, concerns, comments or your valued inputs regarind this README.md generator, kindly go to my Github page
   on the link below:
   
-  -[Github Profile](https://github.com/${data.github})
+  -[Github Profile](https://github.com/gd)
                     
-  You can also reach me  on my email address: ${data.email}.
-  ${data.email}
-`;
-}
-
-module.exports = generateMarkdown;
+  You can also reach me  on my email address: sdg.
+  sdg
