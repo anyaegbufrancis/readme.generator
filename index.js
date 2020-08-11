@@ -100,5 +100,5 @@ async function init() {
     }
 
 // function call to initialize program
-//setTimeout (init(), 1000);
+setTimeout (init(), 1000);
 init()
