@@ -73,3 +73,12 @@ const questions = [
     },    
     
 ];
+
+//function to write README file
+function writeToFile(README, generateFile) {
+    fs.writeFile("./output/"+README, generateFile, function (err) {
+        if (err) {
+            
+        } else 
+    });
+}
