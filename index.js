@@ -57,6 +57,7 @@ const questions = [
         type: "input".green,
         message: "Please enter how we can test this: ".magenta,
         name: "tests",
+        validate: validateInput
     },
     {
         type: "input".green,
