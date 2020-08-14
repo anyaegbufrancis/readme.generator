@@ -19,6 +19,7 @@ const questions = [
         type: "input".green,
         message: "Please Enter a detailed description of the project (50 words minimum): ".magenta,
         name: "description",
+        validate: description
         
     },
     {
