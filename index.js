@@ -111,3 +111,6 @@ async function init() {
         console.log("Oops! Please revalidate your logic and attempt again!".red);
       }    
     }
+
+//Run the Program
+init()
