@@ -24,5 +24,5 @@ const githubAccountValidate = github => githubValidate(github).then(exists => {
 
 //Exporting Modules for use in other files
 
-module.exports = {}
+module.exports = {validateInput, description, emailChecker, githubAccountValidate}
 
