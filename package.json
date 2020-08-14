@@ -15,5 +15,11 @@
     "inquirer": "^6.5.2",
     "valid-github-username": "0.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anyaegbufrancis/readme.generator.git",
+    "bugs": {
+      "url": "https://github.com/anyaegbufrancis/README-Generator/issues"
+    }
   
 }
