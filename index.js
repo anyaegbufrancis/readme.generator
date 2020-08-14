@@ -32,6 +32,7 @@ const questions = [
         type: "input".green,
         message: "Please enter the usage direction: ".magenta,
         name: "usage",
+        validate: validateInput
      
     },
     {
