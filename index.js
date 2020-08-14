@@ -78,7 +78,7 @@ const questions = [
 function writeToFile(README, generateFile) {
     fs.writeFile("./output/"+README, generateFile, function (err) {
         if (err) {
-            
+            console.log("\nA CRITICAL ERROR OCCURED. CANNOT CREATE README.md FILE...\n".red);
         } else 
     });
 }
