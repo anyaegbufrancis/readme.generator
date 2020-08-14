@@ -12,7 +12,8 @@ const questions = [
     {
         type: "input".green,
         message: "Enter the title of this project: ".magenta,
-        name: "title",  
+        name: "title",        
+        validate: validateInput  
     },
     {
         type: "input".green,
