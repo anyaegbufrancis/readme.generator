@@ -40,7 +40,7 @@
   
   Please contact me on my email [Email Address](anyaegbufrancis@gmail.com) or fork the repository from my github account: [Github Profile](https://github.com/anyaegbufrancis). Please make a pull request and we can review the updates, corrections or bug fixes together.
   
-  ## Tests
+  ## Test
   
   Please see the attached gif for test guidance.
   
