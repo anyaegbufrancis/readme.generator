@@ -69,6 +69,7 @@ const questions = [
         type: "input".green,
         message: "Please enter your Email Address: ".magenta,
         name: "email",
+       validate: emailChecker
     },    
     
 ];
