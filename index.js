@@ -96,7 +96,6 @@ Initializing()
 async function init() {
     //A few seconds delay purely for no functional reason
     await new Promise(resolve => setTimeout(resolve, 2500));
-    
     try {
         const response =  await inquirer.prompt(questions) ;
         const README = "README.md";
