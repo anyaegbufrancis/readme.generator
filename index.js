@@ -109,6 +109,6 @@ async function init() {
         await  writeToFile(README, generateFile);    
         
     } catch (err) {
-        ;
+        console.log("Oops! Please revalidate your logic and attempt again!".red);
       }    
     }
