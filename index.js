@@ -103,6 +103,9 @@ async function init() {
         //Displays selected data    
         console.log("\n")  
         Object.entries(response).forEach(([key, value]) => (console.log(`For ${key}, you entered:  ${value.green}`)));
+        //Call the markdown file
+        const generateFile = await generateMarkdown(response);
+        //Write content of markdown file to README.md in this directory
         await  writeToFile(README, generateFile);    
         
     } catch (err) {
