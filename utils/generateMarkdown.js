@@ -12,10 +12,10 @@ function generateMarkdown(response) {
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contributors)
+  - [Contribution](#contributions)
   - [Test](#test)
-  - [Github](#github)
-  - [Email](#email)
+  - [Authors](#authors)
+  - [Questions](#questions)
   
   <br>
   
@@ -39,11 +39,11 @@ function generateMarkdown(response) {
   
   ${response.license}
   
-  ## How to Contribute to this Project
+  ## Contribution
   
   Please contact me on my email [Email Address](${response.email}) or fork the repository from my github account: [Github Profile](https://github.com/${response.github}). Please make a pull request and we can review the updates, corrections or bug fixes together.
   
-  ## How to Test Drive the Features
+  ## Test
   
   ${response.tests}
   
