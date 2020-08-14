@@ -13,14 +13,13 @@ const questions = [
         type: "input".green,
         message: "Enter the title of this project: ".magenta,
         name: "title",        
-        validate: validateInput  
+        validate: validateInput
     },
     {
         type: "input".green,
         message: "Please Enter a detailed description of the project (50 words minimum): ".magenta,
         name: "description",
         validate: description
-        
     },
     {
         type: "input".green,
@@ -33,7 +32,6 @@ const questions = [
         message: "Please enter the usage direction: ".magenta,
         name: "usage",
         validate: validateInput
-     
     },
     {
         type: "list",
@@ -51,7 +49,7 @@ const questions = [
         type: "input".green,
         message: "Please input the authors: ".magenta,
         name: "authors",
-        validate: validateInput     
+        validate: validateInput        
     },
     {
         type: "input".green,
