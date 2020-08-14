@@ -36,11 +36,11 @@
   
   MIT
   
-  ## How to Contribute to this Project
+  ## Contribution
   
   Please contact me on my email [Email Address](anyaegbufrancis@gmail.com) or fork the repository from my github account: [Github Profile](https://github.com/anyaegbufrancis). Please make a pull request and we can review the updates, corrections or bug fixes together.
   
-  ## How to Test Drive the Features
+  ## Tests
   
   Please see the attached gif for test guidance.
   
