@@ -99,7 +99,10 @@ async function init() {
     
     try {
         const response =  await inquirer.prompt(questions) ;
-        
+        const README = "README.md";
+        //Displays selected data    
+        console.log("\n")  
+        Object.entries(response).forEach(([key, value]) => (console.log(`For ${key}, you entered:  ${value.green}`)));
         await  writeToFile(README, generateFile);    
         
     } catch (err) {
