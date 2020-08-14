@@ -4,6 +4,10 @@ const { strikethrough } = require("colors");
 
 const emailValidate = require("email-validator");
 
+const githubValidate = require("gh-account-exists");
+
+//Define interactive data validation checks
+
 
                                                                                });
 
