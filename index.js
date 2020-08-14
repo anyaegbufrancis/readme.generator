@@ -92,3 +92,15 @@ function Initializing () {
 
 //function to initialize program
 Initializing()
+
+async function init() {
+    
+    try {
+        const response =  await inquirer.prompt(questions) ;
+        
+        await  writeToFile(README, generateFile);    
+        
+    } catch (err) {
+        ;
+      }    
+    }
