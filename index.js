@@ -6,3 +6,5 @@ const {description, emailChecker, validateInput, githubAccountValidate} = requir
 const colors = require('colors');
 const { error } = require("console");
 const util = require("util")
+    
+// Array of questions for user
