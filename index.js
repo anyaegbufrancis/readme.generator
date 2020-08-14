@@ -50,7 +50,8 @@ const questions = [
     {
         type: "input".green,
         message: "Please input the authors: ".magenta,
-        name: "authors",       
+        name: "authors",
+        validate: validateInput     
     },
     {
         type: "input".green,
