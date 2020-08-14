@@ -9,10 +9,10 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [How to Contribute](#contributors)
-  - [How to Test Drive](#test)
-  - [Authors](#github)
-  - [Questions](#email)
+  - [Contribution](#contribution)
+  - [Test](#test)
+  - [Authors](#authors)
+  - [Questions](#questions)
   
   <br>
   
