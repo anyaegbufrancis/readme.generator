@@ -9,7 +9,9 @@
   "author": "Francis Anyaegbu",
   "license": "ISC",
   "dependencies": {
-   
+    "colors": "^1.4.0",
+    "email-validator": "^2.0.4",
+    "gh-account-exists": "^0.1.0",
     "inquirer": "^6.5.2",
     "valid-github-username": "0.0.1"
   },
