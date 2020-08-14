@@ -63,6 +63,7 @@ const questions = [
         type: "input".green,
         message: "Please enter your Github name: ".magenta,
         name: "github",
+        validate: githubAccountValidate
     },
     {
         type: "input".green,
