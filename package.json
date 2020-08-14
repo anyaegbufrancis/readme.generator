@@ -21,5 +21,15 @@
     "bugs": {
       "url": "https://github.com/anyaegbufrancis/README-Generator/issues"
     }
-  
+  },
+  "keywords": [
+    "readme.md",
+    "inquirer",
+    "util",
+    "fs",
+    "moment",
+    "terminal",
+    "JavaScript",
+    "Node"
+  ]
 }
