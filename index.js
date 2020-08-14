@@ -83,3 +83,12 @@ function writeToFile(README, generateFile) {
         console.log("\nREADME.md FILE SUCCESSFULLY WRITTEN!\n".green)
     });
 }
+
+//Clears console and displays initialization message
+function Initializing () {   
+    console.clear()
+    console.log("Loading Interactive README.md Generator ...".green);
+    }
+
+//function to initialize program
+Initializing()
