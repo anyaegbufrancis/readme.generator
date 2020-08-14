@@ -1,55 +1,67 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-  # ${data.title}
+
+function generateMarkdown(response) {
+   return `
+  # ${response.title}   ![License](https://img.shields.io/badge/License-${response.license}-blue.svg)
   
-  # Table of Contents
+  <br>
   
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[License](#license)
-  -[Contributors](#contributors)
-  -[Test](#test)
-  -[Github](#github)
-  -[Email](#email)
-  ## Description
-  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg)
+  ## Table of Contents
   
-  ${data.description}
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributors)
+  - [Test](#test)
+  - [Github](#github)
+  - [Email](#email)
+  
+  <br>
+  
+  ## Description  
+  
+  ${response.description}
   
   ## Installation
   
-  ${data.installation}
+  ${response.installation}
   
   ## Usage
   
-  ${data.usage}
+  ${response.usage}
   
   ## License
   
-  FOr additional licensing information. please click below:
+  This project is licensed under:
   
-  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg)
-  ${data.license}
+   ![License](https://img.shields.io/badge/License-${response.license}-blue.svg)
   
-  ## Contributors
+  ${response.license}
   
-  ${data.contributors}
+  ## How to Contribute to this Project
   
-  ## Tests
+  Please contact me on my email [Email Address](${response.email}) or fork the repository from my github account: [Github Profile](https://github.com/${response.github}). Please make a pull request and we can review the updates, corrections or bug fixes together.
   
-  ${data.tests}
+  ## How to Test Drive the Features
+  
+  ${response.tests}
+  
+  ## Authors
+  
+  The author of this project is: 
+  
+  ${response.authors}. 
+  
+  To contribute, please refer to [Contributors](#contributors) section.
   
   ## Questions
   
-  For questions, concerns, comments or your valued inputs regarind this README.md generator, kindly go to my Github page
-  on the link below:
-  
-  -[Github Profile](https://github.com/${data.github})
+  For questions, concerns, comments or your valued inputs regargind this README.md generator, kindly go to my Github page or contact me on my email address below:
+    
+  - [Github Profile](https://github.com/${response.github})
                     
-  You can also reach me  on my email address: ${data.email}.
-  ${data.email}
+  - [Email Address](${response.email})
 `;
 }
 
