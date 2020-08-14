@@ -80,5 +80,6 @@ function writeToFile(README, generateFile) {
         if (err) {
             console.log("\nA CRITICAL ERROR OCCURED. CANNOT CREATE README.md FILE...\n".red);
         } else 
+        console.log("\nREADME.md FILE SUCCESSFULLY WRITTEN!\n".green)
     });
 }
