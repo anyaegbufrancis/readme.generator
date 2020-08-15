@@ -4,9 +4,8 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 const {description, emailChecker, validateInput, githubAccountValidate} = require("./utils/validate");
 const colors = require('colors');
-const { error } = require("console");
-const util = require("util")
-    
+const util = require("util");
+
 // Array of questions for user
 const questions = [
     {
@@ -99,7 +98,7 @@ async function init() {
         const README = "README.md";
         //Displays selected data    
         console.log("\n")  
-        Object.entries(response).forEach(([key, value]) => (console.log(`For ${key}, you entered:  ${value.green}`)));
+        Object.entries(response).forEach(([key, value]) => (console.log(`For ${key} prompt, you entered:  ${value.green}`)));
         //Call the markdown file
         const generateFile = await generateMarkdown(response);
         //Write content of markdown file to README.md in this directory

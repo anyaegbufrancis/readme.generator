@@ -61,7 +61,7 @@ function generateMarkdown(response) {
     
   - [Github Profile](https://github.com/${response.github})
                     
-  - [Email Address](${response.email})
+  - ${response.email}
 `;
 }
 
